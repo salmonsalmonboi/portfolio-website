@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Supakorn Sirimueangmoon - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- Navigation -->
@@ -33,42 +36,40 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
-            <p class="hero-subtitle">Full Stack Developer</p>
-            <p class="hero-description">I create beautiful and functional web applications</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-            </div>
+            <h1 data-aos="fade-right" data-aos-duration="1000">
+                Hello, I'm <span class="highlight">Supakorn Sirimueangmoon</span>
+            </h1>
+        <p class="hero-subtitle" data-aos="fade-left" data-aos-delay="200">Machine Learning Developer </p>
+        <p class="hero-description" data-aos="fade-left" data-aos-delay="400">I focused on optimizing model performance for real-world application </p>
+        <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="600">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
         </div>
-        <div class="hero-image">
-            <img src="images/profile.jpg" alt="Profile Picture">
+    </div>
+        <div class="hero-image" data-aos="zoom-in" data-aos-delay="800">
+            <img src="https://avatars.githubusercontent.com/u/141468789?v=4" alt="Profile Picture">
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" data-aos="fade-up" data-aos-delay="200">About Me</h2>
             <div class="about-content">
-                <div class="about-text">
-                    <p>I am a passionate Full Stack Developer with experience in creating web applications using modern technologies. I love solving complex problems and learning new technologies.</p>
+                <div class="about-text" data-aos="fade-up" data-aos-delay="200">
+                    <p>I have a strong passion for machine learning, particularly in fine-tuning models to optimize performance for specific tasks. My experience includes working on the Coffee Bean Classification and Sorting System using Deep Learning, where I applied model optimization techniques to achieve accurate and efficient results.</p>
                     <div class="about-stats">
-                        <div class="stat-item">
+                        <div class="stat-item" data-aos="zoom-out">
                             <h3>2+</h3>
                             <p>Years Experience</p>
                         </div>
-                        <div class="stat-item">
-                            <h3>15+</h3>
+                        <div class="stat-item" data-aos="zoom-out">
+                            <h3>3+</h3>
                             <p>Projects Completed</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>10+</h3>
-                            <p>Happy Clients</p>
                         </div>
                     </div>
                 </div>
-                <div class="about-image">
+                <div class="about-image" data-aos="zoom-in" data-aos-delay="200">
                     <img src="images/about.jpg" alt="About Image">
                 </div>
             </div>
@@ -96,19 +97,19 @@
                     <p>ES6+ features and modern JavaScript</p>
                 </div>
                 <div class="skill-item">
-                    <i class="fab fa-react"></i>
-                    <h3>React</h3>
-                    <p>Component-based UI development</p>
+                    <i class="fas fa-robot"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Able to manage the dataset for training the model and fine-tune the parameters to suit the task</p>
                 </div>
                 <div class="skill-item">
-                    <i class="fab fa-node-js"></i>
-                    <h3>Node.js</h3>
-                    <p>Server-side JavaScript development</p>
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Possesses a foundational knowledge of Python, with the ability to perform data analysis and contribute to software development</p>
                 </div>
                 <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <h3>MongoDB</h3>
-                    <p>NoSQL database management</p>
+                    <i class="fa-solid fa-c"></i>
+                    <h3>C/C++</h3>
+                    <p>Have an understanding and be able to develop various aspects of this language</p>
                 </div>
             </div>
         </div>
@@ -117,37 +118,34 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid" data-aos="zoom-in">
                 <div class="project-card">
                     <img src="images/project1.jpg" alt="Project 1">
                     <div class="project-info">
-                        <h3>E-commerce Website</h3>
-                        <p>A full-stack e-commerce solution built with React and Node.js</p>
+                        <h3>Coffee Bean Classification and Sorting System using Deep Learning</h3>
+                        <p>A Coffee Bean Classification and Sorting System by YOLOv12</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/project2.jpg" alt="Project 2">
+                    <img src="images/project2.jpeg" alt="Project 2">
                     <div class="project-info">
-                        <h3>Task Management App</h3>
-                        <p>A collaborative task management application with real-time updates</p>
+                        <h3>Mini Ecommerce Collaboration Website</h3>
+                        <p>A collaborative Demo Store Website</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+                            <a href="https://github.com/salmonsalmonboi/mini-ecommerce-collaboration" class="btn btn-small">GitHub</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/project3.jpg" alt="Project 3">
+                    <img src="images/project3.jpeg" alt="Project 3">
                     <div class="project-info">
-                        <h3>Weather App</h3>
-                        <p>A responsive weather application with location-based forecasts</p>
+                        <h3>Coffee Bean Classification Dataset</h3>
+                        <p>A dataset for Coffee Bean Classification</p>
                         <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="https://universe.roboflow.com/chetsada-rngwe/coffee-bean-webcam" class="btn btn-small">Dataset</a>
                             <a href="#" class="btn btn-small btn-secondary">GitHub</a>
                         </div>
                     </div>
@@ -167,19 +165,19 @@
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
-                            <span>your.email@example.com</span>
+                            <span>supasupa.korn556@gmail.com</span>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <span>+66 12 345 6789</span>
+                            <span>+66 12 345 678</span>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Bangkok, Thailand</span>
+                            <span>Chiangmai, Thailand</span>
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/salmonsalmonboi"><i class="fab fa-github"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
@@ -203,9 +201,17 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Your Name. Software Engineering, RMUTL. All rights reserved.</p>
+            <p>&copy; 2025 Supakorn Sirimueangmoon. Software Engineering, RMUTL. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        duration: 1000, // ความเร็วแอนิเมชัน (ms)
+        once: true      // เล่นครั้งเดียวเมื่อ scroll ถึง
+    });
+    </script>
 
     <script src="script.js"></script>
 </body>
