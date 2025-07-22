@@ -1,4 +1,12 @@
 /* Reset and Base Styles */
+:root {
+  --color-bg: #fdf6e3;        /* ครีมอ่อน */
+  --color-text: #3e3e3e;      /* เทาเข้ม */
+  --color-accent: #ff6f3c;    /* ส้มเรโทร */
+  --color-secondary: #dcdcdc; /* เทาอ่อน */
+  --color-btn-hover: #ff8a5c; /* ส้มอ่อนเวลา hover */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +14,9 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #333;
     overflow-x: hidden;
@@ -23,7 +33,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background-color: var(--color-secondary);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
@@ -83,7 +93,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px 20px 50px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--color-text);
     color: white;
 }
 
@@ -130,12 +140,13 @@ body {
 }
 
 .btn-primary {
-    background: #3498db;
-    color: white;
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
 }
 
 .btn-primary:hover {
-    background: #2980b9;
+    background-color: var(--color-btn-hover);
     transform: translateY(-2px);
 }
 
@@ -491,5 +502,26 @@ body {
 
     .project-links {
         flex-direction: column;
+    }
+}
+
+/* Additional more*/
+
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .hero-description,
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
     }
 }
