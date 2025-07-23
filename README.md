@@ -1,7 +1,10 @@
 # Portfolio Website
 
 ## Task2: part1
-เว็บไซต์ Portfolio ส่วนตัวที่สร้างขึ้นเพื่อแสดงผลงานและความสามารถ 
+เว็บไซต์ Portfolio ส่วนตัวที่สร้างขึ้นเพื่อแสดงผลงานและความสามารถ   
+**Live Site**: [supakornsiriportfolio.netlify.app](https://supakornsiriportfolio.netlify.app/)  
+**เอกสารอธิบายงาน**: [Google Docs](https://docs.google.com/document/d/1ch0gTtSVWVBpz1UL4EOdVSW-4Jd7e39z-PF-2qP_040/edit?usp=sharing)
+
 
 ## Features ที่เพิ่มเติม
 
@@ -23,6 +26,5 @@ Portfolio Website/
 ├── project2.png
 └── project3.png
 ```
-
 ## Member
 66543206088-7 นายศุภกร ศิริเมืองมูล 
